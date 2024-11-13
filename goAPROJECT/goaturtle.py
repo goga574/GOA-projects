@@ -1304,10 +1304,77 @@ end_fill()
 
 color("black")
 penup()
-goto(-220, 100)
+goto(-360, 100)
 pendown()
 
 width(3)
+
+#G
+right(180)
+forward(50)
+right(45)
+forward(7)
+right(45)
+forward(50)
+right(45)
+forward(7)
+right(45)
+forward(47)
+right(45)
+forward(5)
+right(45)
+forward(20)
+
+penup()
+goto(-360, 100)
+pendown()
+
+right(180)
+forward(20)
+left(90)
+forward(18)
+# end g
+
+
+#0
+penup()
+goto(-300, 100)
+pendown()
+
+right(180)
+forward(50)
+left(90)
+forward(60)
+left(90)
+forward(50)
+left(90)
+forward(58)
+#end
+
+
+
+#a
+
+penup()
+goto(-180, 100)
+pendown()
+
+right(200)
+forward(60)
+right(140)
+forward(60)
+right(180)
+forward(25)
+left(70)
+forward(25)
+#end
+
+right(180)
+
+penup()
+goto(-40, 100)
+pendown()
+
 
 forward(30)
 left(45)
@@ -1331,8 +1398,9 @@ forward(30)
 left(90)
 forward(54)
 
+
 penup()
-goto(-130, 100)
+goto(25, 100)
 pendown()
 
 right(200)
@@ -1345,9 +1413,8 @@ left(70)
 forward(25)
 
 penup()
-goto(-40, 100)
+goto(100, 100)
 pendown()
-
 
 right(90)
 forward(55)
@@ -1357,10 +1424,60 @@ left(150)
 forward(55)
 
 penup()
-goto(50, 100)
+goto(160, 100)
+pendown()
+
+forward(55)
+right(180)
+forward(27)
+left(45)
+forward(40)
+left(180)
+forward(40)
+right(90)
+forward(40)
+
+penup()
+goto(240, 100)
 pendown()
 
 
+color("green")
+right(45)
+forward(30)
+left(90)
+forward(30)
+left(90)
+forward(30)
+right(90)
+forward(30)
+right(90)
+forward(30)
+right(90)
+forward(20)
+
+
+penup()
+goto(240, 100)
+pendown()
+
+right(180)
+forward(20)
+
+right(180)
+forward(20)
+left(90)
+forward(15)
+right(90)
+forward(10)
+right(180)
+forward(77)
+
+
+color("black")
+penup()
+goto(-500, -350)
+pendown()
 
 
 
