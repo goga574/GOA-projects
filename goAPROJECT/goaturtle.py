@@ -1252,13 +1252,23 @@ pendown()
 
 
 color("black")
-
+width(3)
 left(90)
 forward(180)
 right(30)
-forward(120)
-right(250)
-forward(120)
+forward(125)
+right(150)
+begin_fill()
+color("red2")
+forward(200)
+left(90)
+forward(20)
+left(90)
+forward(225)
+end_fill()
+
+
+
 
 
 
