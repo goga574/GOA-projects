@@ -1264,11 +1264,101 @@ forward(200)
 left(90)
 forward(20)
 left(90)
-forward(225)
+forward(230)
+
+
+left(150)
+forward(38)
+left(30)
+
+end_fill()
+
+#
+color("black")
+forward(200)
+left(90)
+forward(20)
+left(90)
+forward(238)
+
+
+width(1)
+left(150)
+forward(165)
+left(30)
+forward(75)
+
+
+color("sienna1")
+begin_fill()
+left(90)
+forward(60)
+left(90)
+forward(180)
+left(150)
+forward(120)
+left(30)
+forward(85)
 end_fill()
 
 
+color("black")
+penup()
+goto(-220, 100)
+pendown()
 
+width(3)
+
+forward(30)
+left(45)
+forward(5)
+left(45)
+forward(20)
+left(45)
+forward(5)
+left(45)
+forward(30)
+right(180)
+forward(30)
+left(45)
+forward(5)
+left(45)
+forward(20)
+left(45)
+forward(5)
+left(45)
+forward(30)
+left(90)
+forward(54)
+
+penup()
+goto(-130, 100)
+pendown()
+
+right(200)
+forward(60)
+right(140)
+forward(60)
+right(180)
+forward(25)
+left(70)
+forward(25)
+
+penup()
+goto(-40, 100)
+pendown()
+
+
+right(90)
+forward(55)
+right(150)
+forward(62)
+left(150)
+forward(55)
+
+penup()
+goto(50, 100)
+pendown()
 
 
 
