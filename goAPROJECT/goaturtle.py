@@ -1474,10 +1474,67 @@ right(180)
 forward(77)
 
 
-color("black")
+color("brown")
 penup()
-goto(-500, -350)
+goto(-630, -350)
 pendown()
+
+
+begin_fill()
+forward(220)
+left(90)
+forward(10)
+left(90)
+forward(220)
+left(90)
+forward(10)
+left(90)
+forward(220)
+end_fill()
+
+color("green")
+
+forward(120)
+left(90)
+
+begin_fill()
+circle(100)
+end_fill()
+
+left(90)
+forward(200)
+
+color("brown")
+
+right(180)
+
+
+begin_fill()
+width(4)
+forward(110)
+left(90)
+forward(10)
+left(90)
+forward(110)
+end_fill()
+
+width(2)
+right(180)
+forward(70)
+left(70)
+forward(50)
+right(180)
+forward(50)
+left(60)
+forward(60)
+
+
+
+color()
+penup()
+goto(-400, -350)
+pendown()
+
 
 
 
