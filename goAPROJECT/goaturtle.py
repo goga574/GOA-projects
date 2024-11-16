@@ -10,21 +10,19 @@ goto(-500, -350)
 pendown()
 
 
-#საძირკველი
 
-forward(900) #მთლიანი ბანკის სიგანე -------- 200 კარის უნდა იყოს
+forward(900) 
 
 color("RosyBrown4")
 begin_fill()
 left(90)
-forward(50) #საძრკველის სიმაღლე  |
+forward(50) 
 left(90)
-forward(350) #erti sadzirkvelis sigane
+forward(350) 
 left(90)
 forward(50)
 end_fill()
 
-#საძირკველის ზევითა მხარე წითლი როა
 
 right(180)
 forward(50)
@@ -42,7 +40,7 @@ forward(355)
 end_fill()
 
 
-#meore sadzirkveli daviwyot
+
 penup()
 goto(-500, -350)
 pendown()
@@ -53,17 +51,16 @@ color("RosyBrown4")
 begin_fill()
 forward(350)
 left(90)
-forward(50) #საძრკველის სიმაღლე  |
+forward(50) 
 left(90)
-forward(350) #erti sadzirkvelis sigane
+forward(350) 
 left(90)
 forward(50)
 end_fill()
-#end
 
 
 
-#meore sadzirkvelis zevita witeli
+
 
 right(180)
 forward(50)
@@ -80,10 +77,10 @@ right(90)
 forward(20)
 left(90)
 end_fill()
-#end
 
 
-#bankis shuanawili
+
+
 
 right(180)
 forward(350)
@@ -94,7 +91,7 @@ forward(21)
 begin_fill()
 color("sienna1")
 
-forward(350) #bankis shua nawilis simagale
+forward(350) 
 right(90)
 forward(900)
 right(90)
@@ -111,7 +108,7 @@ left(90)
 forward(350)
 
 end_fill()
-#end 
+ 
 
 color("black")
 
@@ -120,10 +117,10 @@ goto(-150, -350)
 pendown()
 right(90)
 
-#door
+
 begin_fill()
 color("AntiqueWhite2")
-forward(230)  #karis simagle
+forward(230)  
 right(30)
 forward(20)
 right(60)
@@ -164,7 +161,7 @@ right(180)
 forward(10)
 right(90)
 
-#first glass
+
 color("OrangeRed1")
 forward(10)
 
@@ -197,7 +194,7 @@ forward(70)
 right(90)
 forward(138)
 end_fill()
-#end
+
 
 penup()
 goto(-65, -350)
@@ -208,7 +205,7 @@ forward(10)
 color("chocolate1")
 
 
-#charcho
+
 begin_fill()
 forward(60)
 left(90)
@@ -247,7 +244,7 @@ forward(60)
 left(90)
 forward(70)
 end_fill()
-#end
+
 
 
 penup()
@@ -266,7 +263,7 @@ pendown()
 
 color("AntiqueWhite2")
 
-#karis magla fanjara
+
 
 begin_fill()
 forward(200)
@@ -281,9 +278,9 @@ forward(30)
 left(30)
 forward(100)
 end_fill()
-#end
 
-#glasses of middle window
+
+
 
 left(90)
 forward(10)
@@ -328,7 +325,7 @@ penup()
 goto(-485, -280)
 pendown()
 
-#first akldama
+
 
 begin_fill()
 color("cornsilk3")
@@ -343,7 +340,7 @@ forward(24)
 left(30)
 forward(330)
 end_fill()
-#end
+
 
 
 penup()
@@ -353,7 +350,7 @@ pendown()
 right(90)
 
 
-#second akldama
+
 begin_fill()
 right(93)
 forward(330)
@@ -366,7 +363,7 @@ forward(24)
 left(30)
 forward(330)
 end_fill()
-#end
+
 
 
 penup()
@@ -376,7 +373,7 @@ pendown()
 right(90)
 
 
-# third akldama
+
 
 begin_fill()
 right(94)
@@ -390,7 +387,6 @@ forward(24)
 left(30)
 forward(330)
 end_fill()
-#end
 
 
 
@@ -401,7 +397,7 @@ pendown()
 
 right(90)
 
-#fourth akldama
+
 begin_fill()
 right(94)
 forward(330)
@@ -414,7 +410,7 @@ forward(24)
 left(30)
 forward(330)
 end_fill()
-#end
+
 
 
 
@@ -424,7 +420,7 @@ pendown()
 
 right(93)
 
-# first window in middle
+
 
 
 begin_fill()
@@ -449,7 +445,7 @@ forward(10)
 
 
 
-#window blue color inside
+
 width(3)
 begin_fill()
 color("turquoise1")
@@ -517,10 +513,9 @@ forward(30)
 right(180)
 forward(60)
 
-#end
 
 
-#second middle window
+
 
 penup()
 goto(270, -230)
@@ -550,7 +545,7 @@ forward(10)
 
 
 
-#window blue color inside
+
 width(3)
 begin_fill()
 color("turquoise1")
@@ -617,7 +612,7 @@ right(90)
 forward(30)
 right(180)
 forward(60)
-#end
+
 
 penup()
 goto(-500, 72)
@@ -625,8 +620,6 @@ pendown()
 
 color("red2")
 
-
-#bankis zevita witeli akldamtebtan
 
 begin_fill()
 forward(905)
@@ -639,7 +632,7 @@ forward(910)
 right(90)
 forward(15)
 end_fill()
-# end
+
 
 
 right(180)
@@ -650,7 +643,7 @@ right(90)
 forward(2)
 
 
-#bankis zevita sartuli banki ro weria
+
 
 
 begin_fill()
@@ -664,7 +657,7 @@ left(90)
 forward(900)
 end_fill()
 
-#end
+
 width(3)
 color("black")
 forward(5)
@@ -676,14 +669,13 @@ right(90)
 forward(18)
 right(90)
 forward(910)
-#end
+
 
 penup()
 goto(-500, 190)
 pendown()
 
 
-#shavi shemogobili mere dagvchirdeba filebis gareshed
 
 width(2)
 color("red2")
@@ -1123,7 +1115,7 @@ forward(15)
 left(90)
 forward(15)
 
-#end
+
 
 
 
@@ -1135,7 +1127,6 @@ pendown()
 right(30)
 
 
-#es dagvchirdeba shemosaxaazad
 
 
 begin_fill()
@@ -1152,7 +1143,7 @@ forward(40)
 right(150)
 forward(305)
 end_fill()
-#end
+
 
 width(2)
 color("black")
@@ -1199,7 +1190,7 @@ right(180)
 forward(140)
 
 
-#es dagvchirdeba
+
 
 color("red2")
 begin_fill()
@@ -1273,7 +1264,6 @@ left(30)
 
 end_fill()
 
-#
 color("black")
 forward(200)
 left(90)
@@ -1309,7 +1299,7 @@ pendown()
 
 width(3)
 
-#G
+
 right(180)
 forward(50)
 right(45)
@@ -1333,10 +1323,9 @@ right(180)
 forward(20)
 left(90)
 forward(18)
-# end g
 
 
-#0
+
 penup()
 goto(-300, 100)
 pendown()
@@ -1349,11 +1338,11 @@ left(90)
 forward(50)
 left(90)
 forward(58)
-#end
 
 
 
-#a
+
+
 
 penup()
 goto(-180, 100)
@@ -1367,7 +1356,7 @@ right(180)
 forward(25)
 left(70)
 forward(25)
-#end
+
 
 right(180)
 
