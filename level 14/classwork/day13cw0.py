@@ -20,3 +20,4 @@ name2 = input("second name:")
 
 print(name == "lasha" or name2 == "giorgi")
 
+
